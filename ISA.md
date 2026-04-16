@@ -1,5 +1,7 @@
 # ISA
 
+## Instructions
+
 | Index | Opcode | Operands |
 |---|---|---|
 | - | 0000 | - |
@@ -18,3 +20,16 @@
 | jmp | 1101 | imm |
 | brh | 1110 | imm, flg |
 | hlt | 1111 | - |
+
+## Flags
+
+| flag | name |
+|-----|----|
+| 000 | ze |
+| 001 | ng |
+| 010 | eq |
+| 011 | ne |
+| 100 | gt |
+| 101 | lt |
+| 110 | ge |
+| 111 | le |

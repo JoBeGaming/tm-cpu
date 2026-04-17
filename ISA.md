@@ -4,21 +4,21 @@
 
 | Index | Opcode | Operands |
 |---|---|---|
-| - | 0000 | - |
-| nop | 0001 | - |
-| add | 0010 | r, r, r (dst) |
-| sub | 0011 | r, r, r (dst) |
-| and | 0100 | r, r, r (dst) |
-| or | 0101 | r, r, r (dst) |
-| xor | 0110 | r, r, r (dst) |
-| ldi | 0111 | r (dst), imm |
-| lod | 1000 | r (dst), ra |
-| str | 1001 | r, ra (dst) |
-| out | 1010 | r, p (dst) |
-| in | 1011 | r (dst), p |
-| cmp | 1100 | r, r, flg |
-| jmp | 1101 | imm |
-| brh | 1110 | imm, flg |
+| nop | 0000 | - |
+| add | 0001 | r, r, r (dst) |
+| sub | 0010 | r, r, r (dst) |
+| and | 0011 | r, r, r (dst) |
+| or | 0100 | r, r, r (dst) |
+| xor | 0101 | r, r, r (dst) |
+| ldi | 0110 | r (dst), imm |
+| lod | 0111 | r (dst), ra |
+| str | 1000 | r, ra (dst) |
+| out | 1001 | r, p (dst) |
+| in | 1010 | r (dst), p |
+| cmp | 1011 | r, r, flg |
+| jmp | 1100 | imm |
+| brh | 1101 | imm, flg |
+| - | 1110 | - |
 | hlt | 1111 | - |
 
 ## Flags
